@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analyzer | Javascript Project</title>
+    <!-- 
+        Link Custom CSS File
+     -->
+    <link rel="stylesheet" href="style.css">
+    <!-- 
+        Google Fonts (Poppins)
+      -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="input-container">
+            <h1>Text Analyzer</h1>
+            <textarea id="textInput" rows="6" placeholder="Type Your Text Here :"></textarea>
+            <button id="analyzeButton">
+                Analyze
+            </button>
+        </div>
+        <div id="result" class="output-container">
+            <p>Word Count : <span id="wordCount">0</span></p>
+            <p>Character Count : <span id="charCount">0</span></p>
+            <p>Average Word Length : <span id="avgCount">0</span></p>
+        </div>
+    </div>
+
+    <!-- 
+        Link Custom JS File
+     -->
+    <script src="script.js"></script>
+</body>
+
+</html>
